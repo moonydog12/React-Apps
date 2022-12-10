@@ -7,7 +7,7 @@ const Dropdown = ({ options, value, onChange }) => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => setIsOpen(!isOpen);
 
-  // note:useRef
+  // reference to specific element
   const divEl = useRef();
 
   useEffect(() => {

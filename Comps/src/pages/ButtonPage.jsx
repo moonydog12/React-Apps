@@ -6,7 +6,7 @@ import Button from '../components/Button';
 const ButtonPage = () => {
   const [count, setCount] = useState(0);
   const handleClick = () => {
-    window.alert('click');
+    console.log('hi');
   };
 
   return (
