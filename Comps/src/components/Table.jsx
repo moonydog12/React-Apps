@@ -1,7 +1,13 @@
-import { render } from 'react-dom';
+import { Fragment } from 'react';
 
 function Table({ data, config, keyFn }) {
-  const renderHeaders = config.map((column) => <th key={column.label}>{column.label}</th>);
+  const renderHeaders = config.map((column) =>
+    column.header ? (
+      <Fragment key={column.label}>{column.header()}</Fragment>
+    ) : (
+      <th key={column.label}>{column.label}</th>
+    ),
+  );
 
   const renderedRows = data.map((rowData) => {
     const renderedCells = config.map((column) => (
