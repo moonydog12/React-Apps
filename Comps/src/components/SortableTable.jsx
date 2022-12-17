@@ -11,7 +11,6 @@ const getIcons = (label, sortBy, sortOrder) => {
       </div>
     );
   }
-
   if (sortOrder === null) {
     return (
       <div>
