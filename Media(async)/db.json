@@ -1,5 +1,30 @@
 {
-  "users": [{ "id": 1, "name": "Jonas" }],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jonas"
+    },
+    {
+      "name": "Cory Satterfield IV",
+      "id": 2
+    },
+    {
+      "name": "Randal Jacobs",
+      "id": 3
+    },
+    {
+      "name": "Evan Daniel",
+      "id": 4
+    },
+    {
+      "name": "Thelma Gulgowski",
+      "id": 5
+    },
+    {
+      "name": "Lindsay Breitenberg",
+      "id": 6
+    }
+  ],
   "albums": [],
   "photos": []
 }
